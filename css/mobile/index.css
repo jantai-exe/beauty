@@ -1,0 +1,29 @@
+@import "./footer.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./invitation.css";
+@import "./offers.css";
+@import "./partners.css";
+
+@media screen and (max-width: 1024px) {
+   .container{
+      padding: 0 20px;
+   }
+   .col-3{
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .col-3{
+      width: 100%;
+   }
+}
+@media screen and (max-width: 576px) {
+   .col-6{
+      width: 100%;
+   }
+   .col-3{
+      width: 100%;
+   }
+}
